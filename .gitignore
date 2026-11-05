@@ -1,0 +1,17 @@
+# 模型与二进制不入库
+*.gguf
+*.bin
+*.exe
+*.dll
+
+# 本地缓存/日志
+KVMem-cache/
+*.log
+*.err
+__pycache__/
+
+# 个人/机密
+*.key
+*.pem
+.env
+credentials*
